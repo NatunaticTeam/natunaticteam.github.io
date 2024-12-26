@@ -19,7 +19,7 @@
     background-color: transparent;
 }
 
-.bouncering {
+#bouncering {
     background: url(../projects/assets/br-bg.png);
     background-size: cover;
 }
