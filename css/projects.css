@@ -1,0 +1,52 @@
+.introverse-title {
+    background-color: transparent;
+    font-size: 40px;
+    color: white;
+    width: 1200PX;
+    height: 100px;
+}
+
+.bouncering-title {
+    background-color: transparent;
+    font-size: 40px;
+    color: white;
+    width: 1200PX;
+    height: 100px;
+}
+
+.br-main-pg {
+    color: whitesmoke;
+    background-color: transparent;
+}
+
+.bouncering {
+    background: url(../projects/assets/br-bg.png);
+    background-size: cover;
+}
+
+p {
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.br-pg-mag-text {
+    color: whitesmoke;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+.br-pg-mag-text-2 {
+    color: whitesmoke;
+    background-color: transparent;
+    font-size: 22px;
+}
+
+.br-pg-mag-text-3 {
+    color: whitesmoke;
+    background-color: transparent;
+    font-size: 32px;
+}
+
+.mods {
+    background-color: blueviolet;
+}
