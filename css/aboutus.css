@@ -1,0 +1,67 @@
+.julibros {
+    width: 400px;
+    border: lightgray 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.misterio {
+    width: 400px;
+    border: lightgray 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.n4c {
+    width: 400px;
+    border: lightgray 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: 'Conv';
+    src: url(../fonts/Conv.ttf);
+}
+
+.pfp {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+#julibros-title {
+    font-family: 'Conv';
+    font-size: 40px;
+    color: #ff0000;
+}
+
+#n4c-title {
+    font-family: 'Conv';
+    font-size: 40px;
+    color: #0099ff;
+}
+
+#misterio-title {
+    font-family: 'Conv';
+    font-size: 40px;
+    color: #bbbbbb;
+}
+
+#julibros-desc {
+    color: lightgray;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#misterio-desc {
+    color: lightgray;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#n4c-desc {
+    color: lightgray;
+    font-size: 20px;
+    font-style: italic;
+}
