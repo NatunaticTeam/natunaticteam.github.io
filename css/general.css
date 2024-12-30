@@ -76,3 +76,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     font-weight: 700;
 }
+
+.extra-a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #407fff;
+}
+
