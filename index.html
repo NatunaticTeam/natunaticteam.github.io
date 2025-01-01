@@ -4,51 +4,65 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>index@natunatic</title>
-        <link rel="stylesheet" href="css/index.css" type="css">
+        <!--link rel="stylesheet" href="css/index.css"-->
         <link rel="stylesheet" href="css/general.css">
         <link rel="shortcut icon" href="128.ico" type="image/x-icon">
     </head>
     <body>
-        <div class="content">
-            <center><span class="title">MOTM</span></center>
-            <p></p>
-            <center><img src="linebreak-xd.png" alt=" "></center>
+        <div class="content" data-section="index" data-value="content">
             <center>
-                <p>The blinds wide open so he can</p>
-                <p>See you in the dark when you're sleepin'</p>
-                <p>Naked body, fresh out the shower</p>
-                <p>And you touch yourself after hours</p>
-                <p>Ain't no man allowed in your bedroom</p>
-                <p>You're sleeping alone in your bed</p>
-                <p>But check your window (swag)</p>
-                <p>He's out your window (window)</p>
+                <!--div id="flags">
+                    <div class="btn-flag" data-language="es">
+                        <img src="img/cl.svg" alt="Spanish (mostly chilean-like)" class="flag-img">
+                    </div>
+                    <div class="btn-flag" data-language="en">
+                        <img src="img/us.svg" alt="English" class="flag-img">
+                    </div>
+                </div-->
+            </center>
+            <center><img src="linebreak-xd.png" alt=" "></center>
+            <div class="motw" data-section="content" data-value="motw">
+                <center><span class="title" data-section="motw" data-value="title">MOTW</span></center>
                 <p></p>
-                <p>(new one on 26/01/2025)</p>
-            </center>
+                <center><img src="linebreak-xd.png" alt=" "></center>
+                <div class="motw-msg" data-section="motw" data-value="motw-msg">
+                    <center>
+                        <p></p>
+                        <p>THE WORLD IS YOU CANVAS</p>
+                        <p>SO TAKE UP YOUR BRUSH</p>
+                        <p>AND PAINT</p>
+                        <p></p>
+                        <p>THE WORLD</p>
+                        <p id="motw-sp-text">RED</p>
+                    </div>
+                        <p id="nmsg-date" data-section="motw" data-value="nmsg-date">(new one on 07/01/2025 and happy new year)</p>
+                </center>
+            </div>
             <center><img src="linebreak-xd.png" alt=" "></center>
             <center><img src="linebreak-xd.png" alt=" "></center>
             <center><img src="linebreak-xd.png" alt=" "></center>
             <center>
-                <a href="blog" class="blog btn">Check out our blog!</a>
+                <a href="blog" class="btn-blog btn" data-section="shared" data-value="btn-blog">Check out our blog!</a>
             </center>
             <center><img src="linebreak-xd.png" alt=" " class="lb"></center>
             <center>
-                <a href="artbook" class="btn btn-disabled" aria-disabled="true">Check Julibros Artbook!</a>
+                <a href="artbook" class="btn btn-disabled btn-artbook" aria-disabled="true" data-section="shared" data-value="btn-artbook">Check Julibros Artbook!</a>
             </center>
             <center><img src="linebreak-xd.png" alt=" " class="lb"></center>
             <center>
-                <a href="aboutus" class="btn">Know the team!</a>
+                <a href="aboutus" class="btn btn-aboutus" data-section="shared" data-value="btn-aboutus">Know the team!</a>
             </center>
             <center><img src="linebreak-xd.png" alt=" " class="lb"></center>
             <center>
-                <a href="projects" class="btn">Our work</a>
+                <a href="projects" class="btn btn-projects" data-section="shared" data-value="btn-projects">Our work</a>
             </center>
             <p></p>
             <center><img src="linebreak-xd.png" alt=" "></center>
             <p></p>
             <center>
-                <a href="https://github.com/NatunaticTeam/natunaticteam.github.io/commits/main/" class="btn-commits">We suggest you check our Page Commits for more details on updates</a>
+                <a href="https://github.com/NatunaticTeam/natunaticteam.github.io/commits/main/" class="btn-commits" data-section="shared" data-value="btn-commits">We suggest you check our Page Commits for more details on updates</a>
             </center>
         </div>
+        <script src="js/lang.js"></script>
     </body>
 </html>

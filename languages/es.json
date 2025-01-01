@@ -1,0 +1,70 @@
+{
+    "shared": {
+        "btn-blog": "Mira nuestro blog!",
+        "btn-artbook": "Mira el ArtBook de Julibros",
+        "btn-aboutus": "Conoce al equipo",
+        "btn-projects": "Nuestro Trabajo",
+        "btn-commits": "Sugerimos ver los Commits de la pagina para detalles"
+    },
+    "index":{
+        "content": {
+            "motw": {
+                "title": "MDLS",
+                "motw-msg": "<center>\n<p>\n</p>\n<p>\nTHE WORLD IS YOU CANVAS\n</p>\n<p>\nSO TAKE UP YOUR BRUSH\n</p>\n<p>\nAND PAINT\n</p>\n<p>\n</p>\n<p>\nTHE WORLD\n</p>\n<p id=\"motw-sp-text\">\nRED\n</p>\n</div>",
+                "nmsg-date": "(nuevo mensaje el 07/01/2025 y feliz año nuevo)"
+            }
+        }
+    },
+    "projects": {
+        "content": {
+            "pj-main-content": {
+                "bouncering": {
+                    "bouncering-title": "",
+                    "br-main-pg": {
+                        "main": "",
+                        "br-pg-mag-text": "",
+                        "br-pg-mag-text-2": "",
+                        "br-pg-mag-text-3": "",
+                        "br-main-pg-advice": ""
+                    },
+                    "mods": {"":"not complete"}
+                }
+            }
+        }
+    },
+    "artbook": {
+        "content": {"":"not complete"}
+    },
+    "blog": {
+        "content": {
+            "post": {
+                "post-header": {
+                    "post-user": "",
+                    "post-title": ""
+                },
+                "post-content": {
+                    "post-text-a": ""
+                }
+            },
+            "posts": {"":"not complete"}
+        }
+    },
+    "aboutus": {
+        "content": {
+            "persons": {
+                "n4c": {
+                    "n4c-desc": ""
+                },
+                "julibros": {
+                    "julibros-desc": ""
+                },
+                "misterio": {
+                    "misterio-desc": ""
+                }
+            }
+        }
+    },
+    "maintenance": {
+        "content": {}
+    }
+}

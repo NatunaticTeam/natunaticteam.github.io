@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'VCR OSD Mono';
+    src: url(/fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
 * {
     font-family: sans-serif;
     background-color: black;
@@ -50,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #5066ff;
 }
 
-.blog {
+.btn-blog {
     background-color: #ff2020;
 }
 
@@ -83,3 +88,27 @@ h1, h2, h3, h4, h5, h6 {
     color: #407fff;
 }
 
+.motw-msg p {
+    color: white;
+    font-family: 'VCR OSD Mono';
+}
+
+#flags {
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-flag {
+    width: 30px;
+}
+
+.flag-img {
+    display: block;
+    cursor: pointer;
+}
+
+#motw-sp-text {
+    color: red;
+}
