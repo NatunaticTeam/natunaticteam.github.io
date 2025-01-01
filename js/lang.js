@@ -16,5 +16,3 @@ const changeLanguage = async (language) => {
 const langChanger = flagsElement.addEventListener('click', (e) => {
     changeLanguage(e.target.parentElement.dataset.language);
 });
-
-document.cookie("langChanger")
