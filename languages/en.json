@@ -36,11 +36,14 @@
         "":"not complete"
     },
     "aboutus": {
-        "n4c-desc": "",
-        "julibros-desc": "",
+        "n4c-desc": "\"I am just a chill, lazy guy that has inspiration on his job, likes coding things, and is a proud member of The NATUNATIC Team, i am also the one behind this page and things like the code of the Introverse Mod and The Bounce Ring Project, thats about it.\"",
+        "julibros-desc": "\"I am an ordinary person that loves to Draw, to Create and listen to Music. I am the creator of most NATUNATIC stories, Like: Introverse Mod, Animal Tower, Wild and Room, etc. For me it's very nice to see how a funny idea of a cat lost in a forest envolved into Natunatic. I hope continue making people happy with my ideas.\"",
         "misterio-desc": ""
     },
     "maintenance": {
-        "":"not complete"
+        "text-1": "Sorry!",
+        "text-2": "This page cannot be accesed right now since it's under construction or in maintenance, come back later maybe?",
+        "text-3": "If you actually did that, and it is not available yet, then wait more! If you're impatient or waited too much (more than 3 days) contact n4c via Discord (n4c._)",
+        "text-4": "You can also check the <a href=\"https://github.com/Natunatic-org/natunatic-org.github.io/actions\" class=\"extra-a\">GitHub Actions</a> to see if something went wrong"
     }
 }

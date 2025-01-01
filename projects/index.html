@@ -11,8 +11,8 @@
     <body>
         <div class="content">
             <center>
-                <a onclick="window.history.back();" class="btn">Go back</a>
-                <a href="../index.html" class="btn">Home</a>
+                <a onclick="window.history.back();" class="btn" data-section="shared" data-value="btn-goback">Go back</a>
+                <a href="../index.html" class="btn" data-section="shared" data-value="btn-home">Home</a>
             </center>
             <p></p>
             <center>
@@ -70,14 +70,15 @@
             <center><img src="../linebreak-xd.png" alt=" " class="lb"></center>
             <center><img src="../linebreak-xd.png" alt=" " class="lb"></center>
             <center>
-                <span>Check out the other parts!</span>
+                <span data-section="shared" data-value="cotop">Check out the other parts!</span>
             </center>
             <center><img src="../linebreak-xd.png" alt=" " class="lb"></center>
             <center>
-                <a href="../blog" class="btn btn-blog">Check out our blog!</a>
-                <a href="../artbook" class="btn btn-disabled btn-artbook">Check Julibros Artbook!</a>
-                <a href="../aboutus" class="btn btn-aboutus">Know the team!</a>
+                <a href="../blog" class="btn btn-blog" data-section="shared" data-value="btn-blog">Check out our blog!</a>
+                <a href="../artbook" class="btn btn-disabled btn-artbook" data-section="shared" data-value="btn-artbook">Check Julibros Artbook!</a>
+                <a href="../aboutus" class="btn btn-aboutus" data-section="shared" data-value="btn-aboutus">Know the team!</a>
             </center>
         </div>
+        <script src="../js/lang.js"></script>
     </body>
 </html>
