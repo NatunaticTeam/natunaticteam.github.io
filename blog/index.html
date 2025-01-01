@@ -11,14 +11,24 @@
     <body>
         <div class="content">
             <center>
-                <a onclick="window.history.back();" class="btn">Go back</a>
-                <a href="../index.html" class="btn">Home</a>
+                <a onclick="window.history.back();" class="btn" data-section="shared" data-value="btn-goback">Go back</a>
+                <a href="../index.html" class="btn" data-section="shared" data-value="btn-home">Home</a>
             </center>
             <p></p>
             <center>
                 <img src="../linebreak-xd.png" alt=" ">
             </center>
             <p></p>
+            <center>
+                <div id="flags">
+                    <div class="btn-flag" data-language="es">
+                        <img src="../img/cl.svg" alt="Spanish (mostly chilean-like)" class="flag-img">
+                    </div>
+                    <div class="btn-flag" data-language="en">
+                        <img src="../img/us.svg" alt="English" class="flag-img">
+                    </div>
+                </div>
+            </center>
             <p></p>
             <center>
                 <div class="post">
@@ -26,17 +36,14 @@
                     <div class="post-header">
                         <img src="assets/n4c.jpg" alt="Profile Picture" class="post-pfp">
                         <span class="post-user post-text">by: n4c</span>
-                        <h1 class="post-title post-text">UPDATE!!!!</h1>
-                        <a href="#" class="post-date">25, December 2024 at 2:15 AM</a>
+                        <h1 class="post-title post-text" data-section="blog" data-value="post-title">Another Update</h1>
+                        <a href="#" class="post-date" data-section="blog" data-value="post-date">01, January 2025 at 3:15 AM</a>
                     </div>
         
                     <div class="post-content">
                         <div class="post-content-text">
-                            <span class="post-text-a">
-                                I finally updated the webpage and added some fixes in pages under construction, also added an update to our projects page announcing our upcoming game
-                                <p></p><a href="../projects/index.html#bouncering" class="post-txtlink">BOUNCE RING</a>
-                                <p></p>that we are OBVIOUSLY happy to announce because its our first full and original game, and a great step in our "career" about game development
-                                <p></p>after all this was said, drink water, take care of yourself, and good day, afternoon and night :)
+                            <span class="post-text-a" data-section="blog" data-value="post-text-a">
+                                This is a small post, but it's made to say something "important"<p></p>This year we will dedicate our time in making bouncering, and to update the page quickly with new features, today i added (limited) language support for this page, for now its only on the blog and index, but im working on the other things, so stay tuned on that.
                             </span>
                         </div>
                     </div>
@@ -49,25 +56,26 @@
             </center>
             <p></p>
             <center>
-                <span class="txt-nocontent">Nothing more to check here! Come back tomorrow to check the new post!</span>
+                <span class="txt-nocontent" data-section="blog" data-value="nocontent">Nothing more to check here! Come back tomorrow to check the new post!</span>
             </center>
             <center><img src="../linebreak-xd.png" alt=" " class="lb"></center>
             <center><img src="../linebreak-xd.png" alt=" " class="lb"></center>
             <center><img src="../linebreak-xd.png" alt=" " class="lb"></center>
             <center>
-                <span>Check out the other parts!</span>
+                <span data-section="shared" data-value="cotop">Check out the other parts!</span>
             </center>
             <center><img src="../linebreak-xd.png" alt=" " class="lb"></center>
             <center>
-                <a href="../artbook" class="btn btn-disabled btn-artbook">Check Julibros Artbook!</a>
-                <a href="../aboutus" class="btn btn-aboutus">Know the team!</a>
-                <a href="../projects" class="btn btn-projects">Our work</a>
+                <a href="../artbook" class="btn btn-disabled btn-artbook" data-section="shared" data-value="btn-artbook">Check Julibros Artbook!</a>
+                <a href="../aboutus" class="btn btn-aboutus" data-section="shared" data-value="btn-aboutus">Know the team!</a>
+                <a href="../projects" class="btn btn-projects" data-section="shared" data-value="btn-projects">Our work</a>
             </center>
             <p></p>
             <center>
-                <a href="posts/" class="btn btn-posts">Check Other posts historically!</a>
+                <a href="posts/" class="btn btn-posts" data-section="blog" data-value="btn-posts">Check Other posts historically!</a>
             </center>
         </div>
+        <script src="../js/lang.js"></script>
     </body>
 </html>
 

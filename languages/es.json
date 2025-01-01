@@ -1,70 +1,46 @@
 {
     "shared": {
+        "cotop": "Mira las otras partes de la pagina!",
+        "btn-goback": "Ir atras",
+        "btn-home": "Ir al inicio",
         "btn-blog": "Mira nuestro blog!",
         "btn-artbook": "Mira el ArtBook de Julibros",
         "btn-aboutus": "Conoce al equipo",
         "btn-projects": "Nuestro Trabajo",
         "btn-commits": "Sugerimos ver los Commits de la pagina para detalles"
     },
-    "index":{
-        "content": {
-            "motw": {
-                "title": "MDLS",
-                "motw-msg": "<center>\n<p>\n</p>\n<p>\nTHE WORLD IS YOU CANVAS\n</p>\n<p>\nSO TAKE UP YOUR BRUSH\n</p>\n<p>\nAND PAINT\n</p>\n<p>\n</p>\n<p>\nTHE WORLD\n</p>\n<p id=\"motw-sp-text\">\nRED\n</p>\n</div>",
-                "nmsg-date": "(nuevo mensaje el 07/01/2025 y feliz año nuevo)"
-            }
-        }
+    "motw": {
+        "title": "MDLS",
+        "motw-msg": "<center>\n<p>\n</p>\n<p>\nTHE WORLD IS YOU CANVAS\n</p>\n<p>\nSO TAKE UP YOUR BRUSH\n</p>\n<p>\nAND PAINT\n</p>\n<p>\n</p>\n<p>\nTHE WORLD\n</p>\n<p id=\"motw-sp-text\">\nRED\n</p>\n</div>",
+        "nmsg-date": "(nuevo mensaje el 07/01/2025 y feliz año nuevo)"
     },
     "projects": {
-        "content": {
-            "pj-main-content": {
-                "bouncering": {
-                    "bouncering-title": "",
-                    "br-main-pg": {
-                        "main": "",
-                        "br-pg-mag-text": "",
-                        "br-pg-mag-text-2": "",
-                        "br-pg-mag-text-3": "",
-                        "br-main-pg-advice": ""
-                    },
-                    "mods": {"":"not complete"}
-                }
-            }
-        }
+        "bouncering-title": "",
+        "br-main-pg": "",
+        "br-pg-mag-text": "",
+        "br-pg-mag-text-2": "",
+        "br-pg-mag-text-3": "",
+        "br-main-pg-advice": ""
     },
     "artbook": {
-        "content": {"":"not complete"}
+        "":"not complete"
     },
     "blog": {
-        "content": {
-            "post": {
-                "post-header": {
-                    "post-user": "",
-                    "post-title": ""
-                },
-                "post-content": {
-                    "post-text-a": ""
-                }
-            },
-            "posts": {"":"not complete"}
-        }
+        "nocontent": "Nada mas que ver po'! Vuelve mañana para ver si hay algo nuevo!",
+        "post-title": "Otra update",
+        "post-text-a": "Este es un post chiquitito, pero esta para decir algo \"importante\"<p></p>Este año, nos vamos a deedicar a hacer Bounce Ring, y para no dejar la pagina sola y actualizarla con nuevo contenido rapido, hoy añadi un (limitado) soporte de idiomas para la pagina, por ahora esta solo en el inicio y aca en el blog, pero estoy viendo las demas partes, asi que esten al tanto con eso.",
+        "post-date": "1 de Enero de 2025, a las 3:15 AM",
+        "btn-posts": "Mira otros posts de manera historica"
+    },
+    "posts": {
+        "":"not complete"
     },
     "aboutus": {
-        "content": {
-            "persons": {
-                "n4c": {
-                    "n4c-desc": ""
-                },
-                "julibros": {
-                    "julibros-desc": ""
-                },
-                "misterio": {
-                    "misterio-desc": ""
-                }
-            }
-        }
+        "n4c-desc": "",
+        "julibros-desc": "",
+        "misterio-desc": ""
     },
     "maintenance": {
-        "content": {}
+        "":"not complete"
     }
 }
