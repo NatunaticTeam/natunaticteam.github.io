@@ -1,6 +1,10 @@
 motdtext = document.getElementById("motd-text")
 
-fetch("./assets/motd.txt").then(r=>r.text()).then(text => {
-    lines = text.split("\n")
+function getRandomLine(lines) {
+    const randomIndex = Math.floor(Math.random() * lines.length);
+    return lines[randomIndex];
+}
+
+/*fetch("./assets/motd.txt").then(r=>r.text()).then(text => {
     motdtext.innerHTML = text;
-})
+})*/
