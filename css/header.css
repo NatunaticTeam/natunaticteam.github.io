@@ -3,6 +3,11 @@
     src: url(../fonts/Montserrat-Regular.ttf) format('truetype');
 }
 
+.header-marquee {
+    font-family: 'Montserrat', sans-serif, monospace;
+    font-size: 2em;
+}
+
 .title {
     font-family: 'Montserrat', sans-serif, monospace;
     font-size: 2em;
